@@ -8,4 +8,3 @@ app.listen(port, () => console.log(`Listening to port ${port}`));
 app.get('/test', (req, res) => {
   res.send({express:  'TESTING EXPRESS'})
 });
-

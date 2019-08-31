@@ -1,9 +1,8 @@
-import React, {useEffect, useRef, useState} from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 
 import Layout from "./hoc/Layout/Layout";
 
-function App() {
-
+const app = () => {
   const [data, setData] = useState(null);
 
   const callBackendAPIRef = useRef();
@@ -26,6 +25,6 @@ function App() {
   return (
     <Layout />
   );
-}
+};
 
-export default App;
+export default app;

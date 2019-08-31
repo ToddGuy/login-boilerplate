@@ -2,9 +2,9 @@ import React from 'react';
 
 import classes from './Layout.module.scss';
 
-const layout = () => (
+const layout = (props) => (
   <div className={classes.Layout}>
-
+    {props.children}
   </div>
 );
 
